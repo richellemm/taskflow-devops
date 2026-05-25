@@ -1,0 +1,30 @@
+{
+  "name": "taskflow-devops",
+  "version": "1.0.0",
+  "description": "Projeto final da disciplina de DevOps.",
+  "homepage": "https://github.com/erikaveloso/taskflow-devops#readme",
+  "bugs": {
+    "url": "https://github.com/erikaveloso/taskflow-devops/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erikaveloso/taskflow-devops.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --config backend/jest.config.js"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.29.0",
+    "@babel/preset-env": "^7.29.5",
+    "jest": "^30.4.2"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.1.23",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  }
+}
